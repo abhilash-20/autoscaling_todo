@@ -1,14 +1,32 @@
-# Python
+# --- Python / Backend ---
+venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-venv/
-
-# Environment variables
 .env
+.env.*
+*.sqlite3
+instance/
+.DS_Store
 
-# IDE / OS files
-.vscode/
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# --- System / Editor Files ---
+*.log
+*.tmp
 *.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# --- OS files ---
+Thumbs.db
 .DS_Store
